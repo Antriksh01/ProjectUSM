@@ -1,0 +1,224 @@
+.container1 {
+  background-image: url("https://res.cloudinary.com/antrix/image/upload/v1668009881/universe-1566159_1920_mlxqy2.jpg");
+  width: 103rem !important;
+  margin-left: 0px !important;
+  height: 30rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8.5rem;
+  margin-bottom: 4rem;
+  margin-left: 15rem;
+  /* background-color: #fff; */
+}
+
+.headerInfo {
+  height: 30rem;
+  text-align: left;
+  justify-content: center;
+}
+.headerfirsth1 {
+  width: 30rem;
+  text-align: left;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  color: #e4e8eb;
+  text-shadow: 1px 2px 4px #0b0c0c;
+}
+
+.headerInfo span {
+  color: #ff7675;
+}
+
+.headerInfo p {
+  width: 18rem;
+  margin-bottom: 60px;
+  margin-left: 5px;
+  font-family: "Poppins", sans-serif;
+  word-spacing: 0px;
+  font-weight: bold;
+  color: #e4e8eb;
+}
+
+.headerInfo .span a {
+  width: 35rem;
+  height: 5.7rem;
+  background-color: #2aaeea;
+  color: white;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  font-weight: bold;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 49px;
+  border: none;
+  text-decoration: none;
+}
+
+.headerImage {
+  width: 62.5;
+  height: 30rem;
+  position: relative;
+  left: 0;
+  top: -2rem;
+}
+.headerImage img {
+  width: 40rem;
+  height: 32rem;
+  padding: 2rem;
+}
+
+/* .secondImage{
+          display: flex;
+          flex-direction: column;
+          border: 2px solid white;
+          width: 12rem;
+          height: 18rem;
+          background-color: white;
+          position:absolute;
+          top: 17rem;
+          left: 40rem;
+          border-radius: 2rem;
+          box-shadow: 0rem 0.6rem 1.1rem -0.2rem rgb(0 0 0 / 50%);
+        } */
+/* .secondImage img {
+          width: 7rem;
+          height: 7rem;
+        } */
+
+.secondImage .info h2 {
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  margin-left: -4rem;
+}
+.info h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  width: 10rem;
+  margin-left: -5rem;
+  margin-top: -5rem;
+}
+.info p {
+  color: gray;
+  font-family: "Poppins", sans-serif;
+  width: 10rem;
+  margin-left: -4rem;
+}
+
+/* .secondImage .cart {
+          position: absolute;
+          left: 4rem;
+          top: 16rem;
+          width: 3.5rem;
+          height: 3.5rem;
+          background-color: rgb(243, 63, 63);
+          border-radius: 1rem;
+          padding-top: 1rem;
+        } */
+
+.alarm {
+  width: 12rem;
+  height: 4rem;
+  display: flex;
+  background-color: white;
+  position: relative;
+  top: -33.5rem;
+  left: 28rem;
+  margin-left: 2.5rem;
+  border-radius: 1.5rem;
+  padding: 0.2rem 0.2rem;
+  box-shadow: 0rem 0.6rem 1.1rem -0.2rem rgb(0 0 0 / 50%);
+}
+
+.alarm .fa-clock-o {
+  margin-left: 1rem;
+}
+.alarm h5 {
+  font-weight: bold;
+  margin-left: 1rem;
+  margin-top: 0.2rem;
+}
+.alarm p {
+  margin-top: 2rem;
+  margin-left: -4rem;
+  color: grey;
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 62.5rem;
+  }
+  .header .headerInfo {
+    display: block;
+    order: 1;
+  }
+  .header .headerImage {
+    display: block;
+    order: 2;
+    width: 100%;
+    height: 25rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    align-items: center;
+    justify-content: center;
+  }
+  .headerfirsth1 {
+    width: 26rem;
+    text-align: left;
+    font-size: 2.5rem;
+    margin-left: 75px;
+  }
+
+  .headerInfo .headerP {
+    width: 23rem;
+    text-align: left;
+    padding-left: 5rem;
+    font-size: 1rem;
+  }
+  .span {
+    padding-left: 5rem;
+  }
+  .headerInfo .span span {
+    padding: 1rem;
+    margin-bottom: 4rem;
+  }
+  .headerImage img {
+    margin-top: 3rem;
+    padding: 5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+    text-align: left;
+  }
+  .headerfirsth1 {
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 1rem;
+  }
+  .headerP p {
+    text-align: left;
+    font-size: 1rem;
+    margin-left: -3rem;
+  }
+  .span {
+    margin-left: -3rem;
+  }
+  .headerInfo .span span {
+    padding: 0.5rem;
+  }
+  .headerImage img {
+    margin-top: -16rem;
+    margin-left: -6rem;
+    padding: 8rem;
+  }
+}

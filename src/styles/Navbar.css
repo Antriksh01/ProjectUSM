@@ -1,0 +1,42 @@
+.ms-auto {
+  margin-right: 15rem !important;
+}
+
+.logo {
+  margin-left: 13rem !important;
+}
+
+.form-inline {
+  width: auto;
+  display: inherit;
+  margin-right: 4rem;
+}
+
+.pt-site-footer__submit {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+input {
+  /* background: #8196aa; */
+  border: 0;
+  border-radius: 40px;
+  color: white;
+  padding: 6px 39px;
+  min-width: 251px;
+  border: 1px solid black;
+  margin-right: 4rem;
+}
+
+button {
+  position: absolute;
+  background: white;
+  border: 0;
+  border-radius: 7px;
+  color: black;
+  padding: 0px;
+  cursor: pointer;
+  right: 90px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
